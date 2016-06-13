@@ -11,7 +11,55 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160523155351) do
+ActiveRecord::Schema.define(version: 20160609122415) do
+
+  create_table "authorizations", force: :cascade do |t|
+    t.string   "provider"
+    t.integer  "user_id"
+    t.string   "uid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "cuisines", force: :cascade do |t|
+    t.text     "name",       null: false
+    t.float    "price",      null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "store_id"
+  end
+
+  add_index "cuisines", ["store_id"], name: "index_cuisines_on_store_id"
+
+  create_table "order_details", force: :cascade do |t|
+    t.integer  "quantity",   null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "order_id"
+    t.integer  "cuisine_id"
+  end
+
+  add_index "order_details", ["cuisine_id"], name: "index_order_details_on_cuisine_id"
+  add_index "order_details", ["order_id"], name: "index_order_details_on_order_id"
+
+  create_table "orders", force: :cascade do |t|
+    t.text     "note"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "user_id"
+  end
+
+  add_index "orders", ["user_id"], name: "index_orders_on_user_id"
+
+  create_table "stores", force: :cascade do |t|
+    t.text     "name",          null: false
+    t.string   "phone",         null: false
+    t.text     "address",       null: false
+    t.integer  "store_type_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "manager"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -33,6 +81,8 @@ ActiveRecord::Schema.define(version: 20160523155351) do
     t.datetime "locked_at"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "name"
+    t.string   "phone"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true

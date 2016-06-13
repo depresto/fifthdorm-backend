@@ -32,6 +32,24 @@ gem 'devise'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# Bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'rails-assets-tether', '>= 1.1.0'
+gem "bootstrap_flash_messages"
+
+# Simple Form
+gem "simple_form", github: "plataformatec/simple_form", branch: "master"
+
+# Secret application.yml
+gem "settingslogic"
+
+# Facebook login
+gem "omniauth"
+gem "omniauth-facebook" 
+
+# ReCAPTCHA
+gem "recaptcha", require: "recaptcha/rails"
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -41,6 +59,7 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'bundler-audit', require: false
 end
 
 group :development do

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
   <title>FifthDormBackend</title>
@@ -7,11 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<%= render "partials/header" %>
 
-<%= yield %>
+	<div class="container">
+		<%= flash_messages %>
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+		<%= yield %>
+	</div>
+
+	<%= render "partials/footer" %>
 
 </body>
 </html>
