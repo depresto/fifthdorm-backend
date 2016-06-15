@@ -1,0 +1,16 @@
+p#notice = notice
+
+h1 =@admin_cuisine.name
+
+table class="table table-striped"
+	tbody
+		tr
+			th.col-md-3 =t(Admin::Cuisine.human_attribute_name('name'))
+			td.col-md-9 = @admin_cuisine.name
+		tr
+			th.col-md-3 =t(Admin::Cuisine.human_attribute_name('price'))
+			td.col-md-9 = @admin_cuisine.price
+
+.btn-group
+	= link_to 'Edit', edit_admin_store_cuisine_path(@admin_store ,@admin_cuisine), :class => 'btn btn-info'
+	= link_to 'Back', admin_store_path(@admin_store), :class => 'btn btn-secondary'

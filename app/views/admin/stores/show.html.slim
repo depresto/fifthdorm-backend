@@ -1,0 +1,55 @@
+
+.row
+	.col-md-5.m-b-2
+		h1 = @admin_store.name
+		table class="table table-striped"
+			tbody
+				tr
+					th =t(Admin::Store.human_attribute_name('manager'))
+					td = @admin_store.manager
+				tr
+					th =t(Admin::Store.human_attribute_name('phone'))
+					td = @admin_store.phone
+				tr
+					th =t(Admin::Store.human_attribute_name('address'))
+					td = @admin_store.address
+		.btn-group
+			= link_to t('crud.edit'), 	edit_admin_store_path(@admin_store), :class => "btn btn-info"
+			= link_to t('action.back'), admin_stores_path, :class => "btn btn-secondary"
+
+	.col-md-7.m-b-2
+		h2 =t('action.admin', resource: Order.model_name.human)
+		table class="table"
+			thead
+				tr
+					th 名稱
+					th 數量
+					th 金額
+			tbody
+				tr
+					th
+					th
+					th
+
+
+.row
+	.col-md-5
+		h2 =t(Admin::Cuisine.model_name.human)
+		table class="table"
+			thead
+				tr
+					th =t(Admin::Cuisine.human_attribute_name('name'))
+					th =t(Admin::Cuisine.human_attribute_name('price'))
+					th
+			tbody
+				- @admin_cuisine.each do |admin_cuisine|
+					tr
+						td = link_to admin_cuisine.name, admin_store_cuisine_path(@admin_store ,admin_cuisine)
+						td = admin_cuisine.price
+						td 
+							.btn-group
+								= link_to t('crud.edit'), edit_admin_store_cuisine_path(@admin_store, admin_cuisine), :class => 'btn btn-info'
+								= link_to t('crud.destory'), admin_store_cuisine_path(@admin_store ,admin_cuisine), data: {:confirm => t('message.are_you_sure')}, :method => :delete, :class => 'btn btn-danger'
+
+		= link_to t('crud.new!', resource: Admin::Cuisine.model_name.human), new_admin_store_cuisine_path(@admin_store), :class => "btn btn-primary"
+

@@ -1,0 +1,8 @@
+h1 =t('crud.edit!', resource: Admin::Store.model_name.human)
+
+== render 'form'
+
+= link_to 'Show', @admin_store
+'|
+= link_to t(:back), admin_stores_path
+

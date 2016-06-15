@@ -1,0 +1,19 @@
+h1 Listing cuisines
+
+table
+  thead
+    tr
+      th
+      th
+      th
+
+  tbody
+    - @cuisines.each do |cuisine|
+      tr
+        td = link_to 'Show', cuisine
+        td = link_to 'Edit', edit_cuisine_path(cuisine)
+        td = link_to 'Destroy', cuisine, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Cuisine', new_cuisine_path

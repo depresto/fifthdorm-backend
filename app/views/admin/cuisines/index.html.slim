@@ -1,0 +1,19 @@
+h1 Listing admin_cuisines
+
+table
+  thead
+    tr
+      th
+      th
+      th
+
+  tbody
+    - @admin_cuisines.each do |admin_cuisine|
+      tr
+        td = link_to t('crud.show'), admin_cuisine
+        td = link_to t('crud.edit'), edit_admin_cuisine_path(admin_cuisine)
+        td = link_to t('crud.destory'), admin_cuisine, data: {:confirm => t('message.are_you_sure')}, :method => :delete
+
+br
+
+= link_to t('crud.new', Cuisine.model_name.human), new_admin_store_cuisine_path

@@ -1,0 +1,18 @@
+zh-TW:
+  activerecord:
+    models:
+      cuisine:  餐點
+      store:    店家
+      user:     會員
+      order:    訂單
+    attributes:
+      store:
+        name:     店家名稱
+        manager:  負責人
+        phone:    電話
+        address:  地址
+      user:
+        name:     使用者名稱
+      cuisine:
+        name:     餐點名稱
+        price:    價格

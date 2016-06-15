@@ -1,0 +1,8 @@
+zh-TW:
+  simple_form:
+    labels:
+      defaults:
+        phone:    電話
+        address:  地址
+        password: 密碼
+        password_confirmation: 確認密碼
