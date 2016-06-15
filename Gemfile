@@ -76,3 +76,7 @@ group :development do
   gem 'spring'
 end
 
+group :production docd ..
+	gem 'pg'
+end
+
