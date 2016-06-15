@@ -50,6 +50,9 @@ gem "omniauth-facebook"
 # ReCAPTCHA
 gem "recaptcha", require: "recaptcha/rails"
 
+# Rails API
+#gem 'rails-api'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -60,6 +63,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'bundler-audit', require: false
+
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
 end
 
 group :development do
