@@ -1,1 +1,2 @@
-json.extract! @store, :id, :name, :phone, :address, :manager
+json.store_id @store.id
+json.extract! @store, :name, :phone, :address, :manager

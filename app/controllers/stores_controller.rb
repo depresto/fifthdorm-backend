@@ -4,7 +4,7 @@ class StoresController < ApplicationController
   # GET /stores
   # GET /stores.json
   def index
-    @stores = Store.all
+    @stores = Store.includes(:cuisines).all
   end
 
   # GET /stores/1

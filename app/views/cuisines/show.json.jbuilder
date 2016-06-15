@@ -1,1 +1,2 @@
-json.extract! @cuisine, :id, :name, :price
+json.cuisine_id @cuisine.id
+json.extract! @cuisine, :name, :price

@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:depresto/fifthdorm-backend.git'
 set :deploy_to, '/home/deploy/fifthdorm'
 
 # Default value for :scm is :git
-# set :scm, :git
+set :scm, :git
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -19,6 +19,10 @@ set :deploy_to, '/home/deploy/fifthdorm'
 # You can configure the Airbrussh format using :format_options.
 # These are the defaults.
 # set :format_options, command_output: true, log_file: 'log/capistrano.log', color: :auto, truncate: :auto
+
+set :rvm_type, :system
+set :rvm_ruby_version, '2.3.0'
+
 
 # Default value for :pty is false
 # set :pty, true
@@ -47,3 +51,6 @@ namespace :deploy do
   end
 
 end
+
+require 'capistrano-unicorn'
+after 'deploy:restart', 'unicorn:restart'

@@ -1,4 +1,4 @@
 json.array!(@cuisines) do |cuisine|
-  json.extract! cuisine, :id
-  json.url cuisine_url(cuisine, format: :json)
+  json.cuidine_id cuisine.id
+  json.extract! cuisine, :name, :price
 end

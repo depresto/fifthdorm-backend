@@ -54,7 +54,7 @@ gem "recaptcha", require: "recaptcha/rails"
 #gem 'rails-api'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -64,8 +64,12 @@ group :development, :test do
   gem 'byebug'
   gem 'bundler-audit', require: false
 
-  gem 'capistrano-rails'
-  gem 'capistrano-passenger'
+  gem 'capistrano', :require => false
+  gem 'capistrano-rvm', :require => false
+  gem 'capistrano-rails', :require => false
+  gem 'capistrano-bundler', :require => false
+  gem 'capistrano-unicorn', :require => false
+  # gem 'capistrano-passenger'
 end
 
 group :development do
@@ -77,6 +81,6 @@ group :development do
 end
 
 group :production do
-	# gem 'pg'
+	gem 'pg'
 end
 
