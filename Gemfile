@@ -64,11 +64,11 @@ group :development, :test do
   gem 'byebug'
   gem 'bundler-audit', require: false
 
-  gem 'capistrano', :require => false
-  gem 'capistrano-rvm', :require => false
-  gem 'capistrano-rails', :require => false
-  gem 'capistrano-bundler', :require => false
-  gem 'capistrano-unicorn', :require => false
+  # gem 'capistrano', :require => false
+  # gem 'capistrano-rvm', :require => false
+  # gem 'capistrano-rails', :require => false
+  # gem 'capistrano-bundler', :require => false
+  # gem 'capistrano3-unicorn', :require => false
   # gem 'capistrano-passenger'
 end
 
