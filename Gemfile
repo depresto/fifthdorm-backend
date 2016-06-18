@@ -48,6 +48,9 @@ gem "omniauth-facebook"
 # ReCAPTCHA
 gem "recaptcha", require: "recaptcha/rails"
 
+# File upload
+gem 'carrierwave'
+
 # Rails API
 #gem 'rails-api'
 
