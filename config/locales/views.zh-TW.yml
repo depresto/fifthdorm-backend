@@ -1,0 +1,7 @@
+zh-TW:
+  header:
+    admin:  "%{resource}管理"
+    brand:  5thDorm
+    home:   首頁
+    users:  會員管理
+    stores: 店家管理

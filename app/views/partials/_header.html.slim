@@ -1,0 +1,21 @@
+header class="navbar navbar-dark navbar-fixed-top bg-inverse" role="banner"
+	.container
+		.navbar-header
+			a href="" class="navbar-brand"
+				= t('header.brand')
+			button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#item-navbar" 
+				| &#9776;
+
+		.collapse.navbar-toggleable-xs id="item-navbar"
+			ul class="nav navbar-nav"
+				li class="nav-item"
+					a class="nav-link" href="" 
+						= t('header.home')
+				li class=(current_page?(admin_users_path) ? "nav-item active" : "nav-item")
+					= link_to t('header.admin', resource: Admin::User.model_name.human), admin_users_path, :class => 'nav-link'
+				li class=(current_page?(admin_stores_path) ? "nav-item active" : "nav-item")
+					= link_to t('header.admin', resource: Admin::Store.model_name.human), admin_stores_path, :class => 'nav-link'
+			ul class="nav navbar-nav pull-md-right"
+				- unless user_signed_in?
+					li class="nav-item"
+						= link_to "Login with facebook", user_facebook_omniauth_authorize_path, :class => "nav-link"

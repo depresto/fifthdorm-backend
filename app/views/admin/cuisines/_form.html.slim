@@ -1,0 +1,12 @@
+= simple_form_for([@admin_store, @admin_cuisine], url: admin_store_cuisines_path) do |f|
+  = f.error_notification
+
+  .row
+  	.form-group.col-md-4
+  		= f.input :name, 	required: true,		as: :string
+  		= f.input :price,	required: true
+
+  .form-actions
+  	.btn-group
+	    = f.button :submit, :class => 'btn btn-primary'
+		= link_to t('action.back'), admin_store_path(@admin_store.id), :class => 'btn btn-secondary'

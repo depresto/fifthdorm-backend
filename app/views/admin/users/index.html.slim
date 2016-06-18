@@ -1,0 +1,21 @@
+h1 會員管理
+
+table class="table"
+  thead
+    tr
+      th Email
+      th 名稱
+      th 電話
+      th 操作
+
+  tbody
+    - @admin_users.each do |admin_user|
+      tr
+        .btn-group
+          td = link_to '詳細資訊', admin_user
+          td = link_to '編輯', edit_admin_user_path(admin_user)
+          td = link_to '刪除', admin_user, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to '新增使用者', new_admin_user_path, :class => "btn btn-primary"

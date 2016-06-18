@@ -1,0 +1,1417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"defaults"
+			],
+			[
+				"data",
+				"data-theme"
+			],
+			[
+				"click",
+				"click_id"
+			],
+			[
+				"img",
+				"image_url"
+			],
+			[
+				"im",
+				"image_url"
+			],
+			[
+				"clci",
+				"click_id"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cont",
+				"content_tag"
+			],
+			[
+				"par",
+				"partials"
+			],
+			[
+				"club",
+				"club_properties"
+			],
+			[
+				"pa",
+				"param"
+			],
+			[
+				"imgur",
+				"Imgurapi"
+			],
+			[
+				"let",
+				"letsencrypt"
+			],
+			[
+				"input",
+				"input-picture"
+			],
+			[
+				"add",
+				"addproperty"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"Borr",
+				"BorrowRoom"
+			],
+			[
+				"cal",
+				"calEvent"
+			],
+			[
+				"ca",
+				"calEvent"
+			],
+			[
+				"sche",
+				"schedule_content_id"
+			],
+			[
+				"sc",
+				"schedule"
+			],
+			[
+				"action",
+				"action_name"
+			],
+			[
+				"ac",
+				"action_name"
+			],
+			[
+				"ui-g",
+				"ui-grid-b"
+			],
+			[
+				"max",
+				"maxSum"
+			],
+			[
+				"tu",
+				"turn_2"
+			],
+			[
+				"t",
+				"turn"
+			],
+			[
+				"tur",
+				"turn"
+			],
+			[
+				"turn",
+				"turn_2"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"va",
+				"va-t	vertical-align: top;"
+			],
+			[
+				"ta",
+				"ta-l	text-align: left;"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bdr",
+				"bdrs	border-radius"
+			],
+			[
+				"taL",
+				"ta:l	text-align:left"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"nav",
+				"nav-sub-menu"
+			],
+			[
+				"con",
+				"conference"
+			],
+			[
+				"bt",
+				"bt	border-top:"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"me",
+				"menu-toggle"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"on",
+				"only"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"op",
+				"opt	option(..)"
+			],
+			[
+				"in",
+				"init"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"re",
+				"remember"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"di",
+				"disc"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"conte",
+				"content_1"
+			],
+			[
+				"st",
+				"stylesheet_link_tag"
+			],
+			[
+				"A",
+				"Apartments"
+			],
+			[
+				"ap",
+				"apartment"
+			],
+			[
+				"T",
+				"Transportation"
+			],
+			[
+				"head",
+				"header"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/pages/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "nav class=\"navbar navbar-dark navbar-fixed-top bg-inverse\"\n	.container\n		.navbar-header\n			a href=\"\" id=\"logo\" class=\"navbar-brand\" \n				= image_tag(\"title-1.jpg\", :alt => \"logo\")\n			button class=\"navbar-toggler hidden-sm-up pull-xs-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#item-bar\" \n				| &#9776;\n		.collapse.navbar-toggleable-xs id=\"item-bar\"\n			ul class=\"nav navbar-nav \"\n				- unless user_signed_in?\n					li class=\"nav-item\"\n						= link_to \"Login with facebook\", Settings.domain + user_facebook_omniauth_authorize_path(:facebook), :class => \"nav-link\"\n				- else\n					",
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/partials/_navbar.html.slim",
+			"file_size": 574,
+			"file_write_time": 131099404930000000,
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Unix",
+				"name": "_navbar.html.slim"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/users/omniauth_callbacks_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user/omniauth_callbacks.rb",
+			"settings":
+			{
+				"buffer_size": 3715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/Gemfile",
+			"settings":
+			{
+				"buffer_size": 2195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1688,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 2668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/devise/shared/_links.html.erb",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 284.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sli",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"slim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"slu",
+				"Set Syntax: Lua"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"cod",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"livre",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"code",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"con",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"convert",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ruby ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"ruby ",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"liver",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Emmet: Remove Tag"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"c",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"l",
+				"LiveReload: Self test"
+			],
+			[
+				"live",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			">>>",
+			"git",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/images",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/javascripts",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/partials",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/users",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/helpers",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/devise",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/devise/shared",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/layouts",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/pages",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/partials",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/environments",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/initializers",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db/migrate",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/public",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/vendor",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/vendor/assets"
+	],
+	"file_history":
+	[
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user/omniauth_callbacks.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db/migrate/20160609095838_remove_fb_id_and_token_from_user.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/authorization.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/users/registrations_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/initializers/devise.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/user/omniauth_callbacks_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/user/omniauth_callbacks.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/application.yml",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/application.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/partials/all.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/partials/navbar.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/environments/development.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/application.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/application.css.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db/migrate/20160606142627_devise_create_users.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/helpers/application_helper.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/javascripts/application.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/Bowerfile",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/bower.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/assets/stylesheets/partials/all.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/initializers/assets.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/routes.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/settings.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/.gitignore",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/application.yml.example",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/layouts/borrowpage.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/admin_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/events_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/stylesheets/borrowpages.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/stylesheets/layouts/borrowlistpage.css.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/javascripts/club_properties.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/user.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/borrow_list.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/borrowpages_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/admin/user.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/partials/_list_with_thumb.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/stylesheets/club_properties.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/club_properties_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/admin/user.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/club_properties/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/helpers/application_helper.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/borrowpages/calendar.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/javascripts/borrowpages/calendar.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/sessions_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/javascripts/layouts/borrowlistpage.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/javascripts/application.js.coffee",
+		"/Volumes/DataHD/Users/WayneHuang/Dropbox/My Documents/VikingBar/wordpress bug說明.txt",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/club_property.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160518172713_create_borrow_lists.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/image.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160518120854_combine_club_properties_and_images.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/Gemfile",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/layouts/application.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/uploaders/image_uploader.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160518082937_rename_hash_to_storage.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/schema.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/.env",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/cloudinary.yml",
+		"/Volumes/DataHD/Users/WayneHuang/.imgurrc",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/.imgurrc",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/.gitignore",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/imgur.yml",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160516173043_drop_image_table.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160516153145_use_paperclip_to_imgur.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/properties/index.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/pages/main.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/borrowpages/room.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/layouts/_borrowpage.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/borrowpages/book.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/events/destroy.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/events/create.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/borrow_keyboard.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/borrow_book.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/pages_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/admin/property.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/properties_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/initializers/dev_environment.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/environments/production.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/environments/development.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/borrowpages/keyboard.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/admin/addproperty.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/layouts/borrowlistpage.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/admin/adduser.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/partials/_btn_float.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/partial/btn_float.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/pages/login.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/controllers/application_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/config/routes.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/stylesheets/base.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/sessions/delevent.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/sessions/borrow.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/assets/stylesheets/materialFullCalendar.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/layouts/borrowpage.js.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160412165917_chage_column_schedule_content.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160412165127_not_nullof_schedule_content_fk.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160412162810_remove_schdule_content_fk.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160412164924_remove_calendar_fk_and_readd_schedule_content_fk.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/models/calendar.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/app/views/pages/init.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/MelodyLyric/db/migrate/20160411124100_add_image_column.rb",
+		"/tmp/subl stdin es6oE8.txt",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/marketing.html.md.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/secretariats.md.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/administrative.html.md.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/partials/staff.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/template/responsive.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/partials/nav.sass",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/partials/staff.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/academic.html.md",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/template/style.scss",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/secretariats.md",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/layouts/layout.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/pages.css.sass",
+		"/Volumes/DataHD/Users/WayneHuang/My Documents/Test/HW4pb3.cpp",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/academic.html.markdown.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/about/team.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/index.html.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/lib/universal.scss",
+		"/Volumes/DataHD/Users/WayneHuang/My Documents/NTUmelody",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/css/lib/jquery.orgchart.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/partials/nav.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/CKU_MUN/source/pages/social/day2.html.markdown",
+		"/Volumes/DataHD/Users/WayneHuang/My Documents/VikingBar/ca-bundle.crt",
+		"/Volumes/DataHD/Users/WayneHuang/My Documents/VikingBar/id_rsa",
+		"/Volumes/DataHD/Users/WayneHuang/My Documents/VikingBar/viking.crt"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tie_get_time",
+			"controller",
+			"config.action_dispatch.rack_cache",
+			"multipart",
+			"nl",
+			"#{(\\w+)}",
+			"#{\\w+}",
+			"#{*}",
+			"#U",
+			"scp",
+			"#U",
+			"#page-title",
+			"page-title",
+			"page-title ",
+			"page-title h1",
+			"PAGE-TITLE",
+			"soon",
+			"flag",
+			"enve",
+			"mail",
+			",，",
+			",",
+			".col_",
+			".col.",
+			"444",
+			".nav-sub-menu",
+			"javascript",
+			"\\}",
+			"}",
+			";",
+			"\\{",
+			"\\}\\n",
+			"}",
+			";",
+			"padding: 20px 0 ",
+			"page-title",
+			"menu_",
+			"menu",
+			"float",
+			"../images/",
+			"../fonts/",
+			"../images/",
+			"images/",
+			"fonts/",
+			"images/",
+			"../images/",
+			"images/",
+			"../images/",
+			"/images/",
+			"dark",
+			"images/",
+			"dark",
+			"images/",
+			"/images",
+			"images",
+			"../images",
+			"iages",
+			"img",
+			"url",
+			"img",
+			"login",
+			"should",
+			"spro",
+			"%meta{:content => data.page.description || \"SET YOUR SITE DESCRIPTION\", :name => \"description\"}",
+			"YOUR",
+			"//",
+			".googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"}\n    :javascript\n      window.jQuery || document.write('<script src=\"library/js/vendor/jquery-2.1.1.js\"><\\/script>')\n    = javascript_include_tag \"libs/jquery.mobile-1.4.5.min.js\"\n    = javascript_include_tag \"main\"\n\n    = yield_content :script",
+			" ",
+			"w",
+			"\\p",
+			"?-\\p{Lu}",
+			"\\p{Lu}",
+			"\\p{測}",
+			"\\p{IsCJKUnifiedIdeographs}",
+			"\\r\\n",
+			"\\r",
+			"^.*$",
+			"^.?$",
+			".",
+			"8{3}",
+			"^\\t+",
+			"^\\t+$",
+			"^[\\t]+$",
+			"[a-z]+$",
+			"[a-z]+",
+			"^[a-z]+$",
+			"\\bp",
+			"s\\b",
+			"s\\bi",
+			"../",
+			"30px",
+			";",
+			"{",
+			"}\n",
+			"%\n",
+			"	});",
+			";",
+			"{",
+			"r",
+			"{",
+			"}\n",
+			";",
+			"{",
+			";",
+			"}\n",
+			"{",
+			";",
+			"}\n",
+			"{",
+			"\n",
+			";",
+			"}",
+			"{",
+			";",
+			"%",
+			"Apartments",
+			"compass",
+			"haml",
+			"Brogrammer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"<%=\\1%>",
+			"<%=$1%>",
+			"\\u",
+			"，",
+			"",
+			"images/",
+			"fonts/",
+			"images/",
+			"../images/",
+			"../fonts/",
+			"../images/",
+			"images/",
+			"../images/",
+			"images/",
+			"../images/",
+			"../images",
+			"../../images",
+			"#",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/pages/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/partials/_navbar.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_navbar.html.slim",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/users/omniauth_callbacks_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/models/user/omniauth_callbacks.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2552,
+								2552
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1397,
+								1397
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 676.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								769,
+								769
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/db/schema.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1889,
+								1889
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 472.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/controllers/pages_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Volumes/DataHD/Users/WayneHuang/WebDev/ReMelodyLyrics/app/views/devise/shared/_links.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"",
+				"app/helpers/pages_helper.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

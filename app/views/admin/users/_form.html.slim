@@ -1,0 +1,23 @@
+= simple_form_for @admin_user do |f|
+
+  .row
+    .form-group.col-md-4
+      = f.input :email,     required: true
+      = f.input :name,      required: true
+      = f.input :phone
+      = f.input :password,  required: true
+      = f.input :password_confirmation, required: true
+
+
+  - if @admin_user.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@admin_user.errors.count, "error")} prohibited this admin_user from being saved:"
+      ul
+        - @admin_user.errors.full_messages.each do |message|
+          li = message
+
+  br
+  .actions 
+    .btn-group
+      = f.submit :class => "btn btn-primary"
+      = link_to t(:cancel), admin_users_path, class: "btn btn-secondary"
