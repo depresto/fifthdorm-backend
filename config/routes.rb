@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     end
     resources :orders
   end
+  resources :orders
 
   resources :stores do 
     resources :cuisines
