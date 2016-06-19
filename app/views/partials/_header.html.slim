@@ -18,4 +18,7 @@ header class="navbar navbar-dark navbar-fixed-top bg-inverse" role="banner"
 			ul class="nav navbar-nav pull-md-right"
 				- unless user_signed_in?
 					li class="nav-item"
-						= link_to "Facebook登入", user_facebook_omniauth_authorize_path, :class => "nav-link"
+						= link_to "Facebook登入", user_omniauth_authorize_path(:facebook), :class => "nav-link"
+				- else
+					li class="nav-item"
+						= link_to "登出", destroy_user_session_path, :method => :delete, :class => 'nav-link'
