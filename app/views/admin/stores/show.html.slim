@@ -2,6 +2,7 @@
 .row
 	.col-md-5.m-b-2
 		h1 = @admin_store.name
+		=image_tag(@admin_store.image.url, class: 'list-image') if @admin_store.image?
 		table class="table table-striped"
 			tbody
 				tr
@@ -35,18 +36,21 @@
 .row
 	.col-md-5
 		h2 =t(Admin::Cuisine.model_name.human)
-		table class="table"
+		table class="table table-with-button"
 			thead
 				tr
+					th
 					th =t(Admin::Cuisine.human_attribute_name('name'))
 					th =t(Admin::Cuisine.human_attribute_name('price'))
 					th
 			tbody
 				- @admin_cuisine.each do |admin_cuisine|
 					tr
+						td.td-image
+							div= image_tag(admin_cuisine.image.thumb.url)
 						td = link_to admin_cuisine.name, admin_store_cuisine_path(@admin_store ,admin_cuisine)
 						td = admin_cuisine.price
-						td 
+						td.td-operation
 							.btn-group
 								= link_to t('crud.edit'), edit_admin_store_cuisine_path(@admin_store, admin_cuisine), :class => 'btn btn-info'
 								= link_to t('crud.destory'), admin_store_cuisine_path(@admin_store ,admin_cuisine), data: {:confirm => t('message.are_you_sure')}, :method => :delete, :class => 'btn btn-danger'

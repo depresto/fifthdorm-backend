@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160609122415) do
+ActiveRecord::Schema.define(version: 20160618173350) do
 
   create_table "authorizations", force: :cascade do |t|
     t.string   "provider"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20160609122415) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "store_id"
+    t.string   "image"
   end
 
   add_index "cuisines", ["store_id"], name: "index_cuisines_on_store_id"
@@ -59,6 +60,7 @@ ActiveRecord::Schema.define(version: 20160609122415) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.string   "manager"
+    t.string   "image"
   end
 
   create_table "users", force: :cascade do |t|
@@ -83,6 +85,7 @@ ActiveRecord::Schema.define(version: 20160609122415) do
     t.datetime "updated_at",                          null: false
     t.string   "name"
     t.string   "phone"
+    t.string   "image"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true

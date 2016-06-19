@@ -1,0 +1,23 @@
+.table-with-button {
+	vertical-align: middle;
+	th, td {
+		vertical-align: middle;
+	}
+}
+
+.td-image {
+	padding: 0 !important;
+	div {
+		height: 60px;
+		width: 60px;
+		overflow: hidden;
+		position: relative;
+		img {
+			position:absolute;
+			left: 50%;
+			margin-left: -30px;
+			width: 60px;
+			overflow: hidden;
+		}
+	}
+}

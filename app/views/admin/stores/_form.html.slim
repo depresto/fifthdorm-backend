@@ -3,6 +3,7 @@
 	.row
 		.form-group.col-md-4
 			= f.input :name, 		as: :string,		:required => true
+			= f.input :image, 		:as => :image_preview, :input_html => {:preview_version => :square}
 			= f.input :manager,		:required => true
 			= f.input :phone,		:required => true
 			= f.input :address,		:required => true
