@@ -9,8 +9,8 @@ json.array!(@stores) do |store|
   	json.array!(store.cuisines) do |cuisine|
   		json.cuisine_id cuisine.id
   		unless cuisine.image.url.nil?
-  			json.thumb self.request.subdomain'.'+self.request.domain+cuisine.image.square.url
-  			json.image self.request.subdomain'.'+self.request.domain+cuisine.image.url
+  			json.thumb self.request.subdomain+'.'+self.request.domain+cuisine.image.square.url
+  			json.image self.request.subdomain+'.'+self.request.domain+cuisine.image.url
   		end
   		json.extract! cuisine, :name, :price
   	end
