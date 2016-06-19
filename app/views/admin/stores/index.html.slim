@@ -1,8 +1,9 @@
 h1 = t('action.admin', resource: Admin::Store.model_name.human)
 
-table class="table"
+table class="table table-with-button"
   thead
     tr
+      th
       th = t(Admin::Store.human_attribute_name('name'))
       th = t(Admin::Store.human_attribute_name('manager'))
       th = t(Admin::Store.human_attribute_name('phone'))
@@ -12,6 +13,8 @@ table class="table"
   tbody
     - @admin_stores.each do |admin_store|
       tr
+        td.td-image
+            div= image_tag(admin_store.image.thumb.url)
         td = link_to admin_store.name, admin_store
         td = admin_store.manager
         td = admin_store.phone

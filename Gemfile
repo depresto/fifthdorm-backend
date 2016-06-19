@@ -37,6 +37,7 @@ gem "bootstrap_flash_messages"
 
 # Simple Form
 gem "simple_form", github: "plataformatec/simple_form", branch: "master"
+gem 'simple_form_fancy_uploads'
 
 # Secret application.yml
 gem "settingslogic"
@@ -47,6 +48,12 @@ gem "omniauth-facebook"
 
 # ReCAPTCHA
 gem "recaptcha", require: "recaptcha/rails"
+
+# File upload
+gem 'carrierwave'
+
+# Image resize
+gem "mini_magick"
 
 # Rails API
 #gem 'rails-api'

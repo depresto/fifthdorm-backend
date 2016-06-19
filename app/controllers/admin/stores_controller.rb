@@ -71,6 +71,6 @@ class Admin::StoresController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def admin_store_params
-      params.fetch(:admin_store, {}).permit(:name, :phone, :address, :manager)
+      params.fetch(:admin_store, {}).permit(:name, :phone, :address, :manager, :image)
     end
 end

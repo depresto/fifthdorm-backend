@@ -6,3 +6,4 @@ zh-TW:
         address:  地址
         password: 密碼
         password_confirmation: 確認密碼
+        image:    圖片

@@ -71,7 +71,7 @@ class Admin::CuisinesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def admin_cuisine_params
-      params.fetch(:admin_cuisine, {}).permit(:name, :price, :store_id)
+      params.fetch(:admin_cuisine, {}).permit(:name, :price, :store_id, :image)
     end
 
     # Load Parent Obj.

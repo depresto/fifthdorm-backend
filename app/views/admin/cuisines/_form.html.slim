@@ -1,10 +1,13 @@
-= simple_form_for([@admin_store, @admin_cuisine], url: admin_store_cuisines_path) do |f|
+= simple_form_for([@admin_store, @admin_cuisine], url: admin_store_cuisine_path) do |f|
   = f.error_notification
 
   .row
   	.form-group.col-md-4
+	  	.upload-preview
+	  		img
   		= f.input :name, 	required: true,		as: :string
   		= f.input :price,	required: true
+  		= f.input :image, 	:as => :image_preview, :input_html => {:preview_version => :square}
 
   .form-actions
   	.btn-group
