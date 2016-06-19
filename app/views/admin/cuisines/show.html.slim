@@ -1,6 +1,7 @@
 p#notice = notice
 
 h1 =@admin_cuisine.name
+=image_tag(@admin_cuisine.image.url, class: 'list-image') if @admin_cuisine.image?
 
 table class="table table-striped"
 	tbody
@@ -12,5 +13,5 @@ table class="table table-striped"
 			td.col-md-9 = @admin_cuisine.price
 
 .btn-group
-	= link_to 'Edit', edit_admin_store_cuisine_path(@admin_store ,@admin_cuisine), :class => 'btn btn-info'
-	= link_to 'Back', admin_store_path(@admin_store), :class => 'btn btn-secondary'
+	= link_to t('crud.edit'), edit_admin_store_cuisine_path(@admin_store ,@admin_cuisine), :class => 'btn btn-info'
+	= link_to t('action.back'), admin_store_path(@admin_store), :class => 'btn btn-secondary'

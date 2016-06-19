@@ -11,7 +11,7 @@ class Admin::StoresController < ApplicationController
   # GET /admin/stores/1
   # GET /admin/stores/1.json
   def show
-    @admin_cuisine = @admin_store.cuisine.all
+    @admin_cuisine = @admin_store.cuisines.all
   end
 
   # GET /admin/stores/new

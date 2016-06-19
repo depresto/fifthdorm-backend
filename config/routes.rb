@@ -3,8 +3,10 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :users
     resources :stores do 
-      resources :cuisines
+      resources :cuisines, except: :index
+      resources :order_details
     end
+    resources :orders
   end
 
   resources :stores do 

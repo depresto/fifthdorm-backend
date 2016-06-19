@@ -1,0 +1,9 @@
+= simple_form_for([:admin, @admin_store, @admin_order_detail]) do |f|
+	= f.error_notification
+
+	.row
+		.form-group.col-md-4
+
+	.form-actions.btn-group
+		= f.button :submit, :class => 'btn btn-primary'
+	= link_to t('action.back'), admin_store_order_details_path, :class => 'btn btn-secondary'

@@ -6,7 +6,7 @@ class Admin::CuisinesController < ApplicationController
   # GET /admin/cuisines
   # GET /admin/cuisines.json
   def index
-    @admin_cuisines = @admin_store.cuisine.all
+    @admin_cuisines = @admin_store.cuisines.all
   end
 
   # GET /admin/cuisines/1
@@ -16,17 +16,18 @@ class Admin::CuisinesController < ApplicationController
 
   # GET /admin/cuisines/new
   def new
-    @admin_cuisine = @admin_store.cuisine.new
+    @admin_cuisine = @admin_store.cuisines.new
   end
 
   # GET /admin/cuisines/1/edit
   def edit
+    logger.debug @admin_cuisine.to_json
   end
 
   # POST /admin/cuisines
   # POST /admin/cuisines.json
   def create
-    @admin_cuisine = @admin_store.cuisine.new(admin_cuisine_params)
+    @admin_cuisine = @admin_store.cuisines.new(admin_cuisine_params)
 
     respond_to do |format|
       if @admin_cuisine.save
@@ -66,16 +67,16 @@ class Admin::CuisinesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_admin_cuisine
-      @admin_cuisine = @admin_store.cuisine.find(params[:id])
+      @admin_cuisine = @admin_store.cuisines.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def admin_cuisine_params
-      params.fetch(:admin_cuisine, {}).permit(:name, :price, :store_id, :image)
+      params.fetch(:cuisine, {}).permit(:name, :price, :store_id, :image)
     end
 
     # Load Parent Obj.
     def load_admin_store
-      @admin_store = Admin::Store.find(params[:store_id])
+      @admin_store = Store.find(params[:store_id])
     end
 end
